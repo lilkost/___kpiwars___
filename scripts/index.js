@@ -153,7 +153,18 @@ function createFrameAnimation({
         setInterval(playAnimation, repeatDelay);
     }, startDelay);
 }
+function preloadImage() {
+    const img = document.createElement("img");
 
+    for (let i = 1; i <= 16; i++) {
+        img.src = `image/anim_one/${i}.png`
+    }
+
+    for (let i = 1; i <= 30; i++) {
+        img.src = `image/anim_two/${i}.png`
+    }
+}
+preloadImage();
 function animateHeros() {
     createFrameAnimation({
         parentSelector: ".hero-person-one",
