@@ -1,0 +1,15 @@
+<svg width="103" height="38" viewBox="0 0 103 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M97.7179 23.109L103 37.9647L90.4551 33.0128H3.96154C1.77364 33.0128 0 31.2392 0 29.0513V3.96154C0 1.77364 1.77364 0 3.96154 0H93.7564C95.9443 0 97.7179 1.77364 97.7179 3.96154V23.109Z" fill="url(#paint0_radial_4831_3111)"/>
+<path d="M93.7568 0.330078H3.96191C1.95634 0.330078 0.330078 1.95634 0.330078 3.96191V29.0518C0.330335 31.0571 1.9565 32.6826 3.96191 32.6826H90.5176L90.5762 32.7061L102.445 37.3896L97.4072 23.2197L97.3877 23.166V3.96191C97.3877 1.95648 95.7622 0.330308 93.7568 0.330078Z" stroke="url(#paint1_linear_4831_3111)" stroke-opacity="0.3" stroke-width="0.660256"/>
+<defs>
+<radialGradient id="paint0_radial_4831_3111" cx="0" cy="0" r="1" gradientTransform="matrix(-95.6429 36.598 99.292 23.2438 95.6429 1.36673)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#233635" stop-opacity="0.7"/>
+<stop offset="0.0001" stop-color="#233635" stop-opacity="0.7"/>
+<stop offset="1" stop-color="#233635" stop-opacity="0.1"/>
+</radialGradient>
+<linearGradient id="paint1_linear_4831_3111" x1="103" y1="0" x2="-3.38208" y2="19.7159" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.32"/>
+<stop offset="1" stop-color="#BEBEBE" stop-opacity="0.23"/>
+</linearGradient>
+</defs>
+</svg>
