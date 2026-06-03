@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KPI arena</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/media.min.css">
+    <script src="https://unpkg.com/imask"></script>
+    <script src="js/index.js" defer></script>
+</head>
+
+<body>
+
+    <!-- wrapper -->
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__inner">
+                <a class="header__logo" href="/">
+                    <img src="image/logo.svg" alt="Logo kpi game">
+                </a>
+                <nav class="header__nav">
+                    <button class="header__nav-close" type="button" title="Закрыть меню">
+                        <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" stroke="#fff">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z"
+                                    fill="#fff"></path>
+                            </g>
+                        </svg>
+                    </button>
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item">
+                            <a href="#!" class="header__nav-link">Главная</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#!" class="header__nav-link">Для кого</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#!" class="header__nav-link">О нас</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#!" class="header__nav-link">Как это работает?</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#!" class="header__nav-link">Демонстрация</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a class="header__lk-link" href="#!">Личный кабинет</a>
+                <button class="header__burger" type="button" title="Кнопка открытия меню">
+                    <svg width="32" height="20" viewBox="0 0 32 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1H31M6 10H26M4.33333 19H28.5" stroke="white" stroke-width="2"
+                            stroke-linecap="round" />
+                    </svg>
+                </button>
+            </div>
+        </header>
+<main class="main">
+    <section class="auth auth_mb">
+        <div class="auth__inner">
+            <div class="auth__main">
+                <a href="/" class="auth__logo">
+                    <img src="image/logo.svg" alt="">
+                </a>
+                <div class="auth__buttons">
+                    <button class="auth__btn is-active" type="button" data-btn="gamer">Я игрок</button>
+                    <button class="auth__btn" type="button" data-btn="admin">Я админ</button>
+                </div>
+                <div class="auth__content">
+                    <form class="auth__form form" action="#!">
+                        <input id="inputStatus" type="text" name="isAdmin" hidden value="gamer">
+                        <h2 class="auth__form-title main-title">
+                            Вход
+                        </h2>
+                        <label class="form__label">
+                            <span class="form__label-name">Почта</span>
+                            <input class="form__input" type="text" placeholder="Email">
+                        </label>
+                        <label class="form__label">
+                            <span class="form__label-name">Пароль</span>
+                            <input class="form__input" type="password" placeholder="Введите пароль">
+                        </label>
+                        <div class="form__row">
+                            <label for="check1" class="form__checkbox">
+                                <span class="form__checkbox-decor"></span>
+                                <input id="check1" type="checkbox">
+                                <p class="form__checkbox-text">Запомнить меня</p>
+                            </label>
+                            <a class="form__link" href="#!">Забыли пароль?</a>
+                        </div>
+                        <button class="form__btn btn btn_accent" type="submit">войти</button>
+                        <a class="form__register-link" href="#!">РЕГИСТРАЦИЯ</a>
+                    </form>
+                </div>
+            </div>
+            <div class="auth__info">
+                <h2 class="auth__info-title">
+                    Увеличьте прибыль<br>
+                    отдела продаЖ
+                </h2>
+                <div class="auth__info-hero hero-person-one is-active" data-hero="gamer">
+                    <img src="image/anim_one/1.png" alt="hero">
+                </div>
+                <div class="auth__info-hero hero-person-two" data-hero="admin">
+                    <img src="image/anim_two/1.png" alt="hero">
+                </div>
+                <p class="auth__info-text">
+                    KPIArena - это командная 2D-игра в фэнтези-сеттинге, встроенная прямо в рабочий процесс отдела
+                    продаж: каждая сделка в
+                    CRM приносит менеджеру игровую энергию, которую он тратит на ходы: атаки, поддержку союзников,
+                    стратегические решения.
+                </p>
+                <a class="auth__info-btn btn" href="#!">ПОДРОБНЕЕ</a>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="footer__inner container">
+        <h2 class="footer__title main-title">
+            Увеличьте прибыль отдела продаж<br>
+            с помощью геймификации и AI-аналитики
+        </h2>
+        <a class="footer__link btn btn_accent" href="#!">Попробовать бесплатно</a>
+        <nav class="footer__nav">
+            <ul class="footer__nav-list">
+                <li class="footer__nav-item"><a href="#!" class="footer__nav-link">Главная</a></li>
+                <li class="footer__nav-item"><a href="#!" class="footer__nav-link">Для кого</a></li>
+                <li class="footer__nav-item"><a href="#!" class="footer__nav-link">О нас</a></li>
+                <li class="footer__nav-item"><a href="#!" class="footer__nav-link">Как это работает?</a></li>
+                <li class="footer__nav-item"><a href="#!" class="footer__nav-link">Демонстрация</a></li>
+            </ul>
+        </nav>
+        <a class="footer__logo" href="/">
+            <img src="image/logo.svg" alt="logo kpi arena">
+        </a>
+        <ul class="footer__links">
+            <li class="footer__links-item"><a href="#!" class="footer__links-item-link">Пользовательское соглашение</a>
+            </li>
+            <li class="footer__links-item"><a href="#!" class="footer__links-item-link">2026 Kpi Arena</a></li>
+            <li class="footer__links-item"><a href="#!" class="footer__links-item-link">Политика конфиденциальности</a>
+            </li>
+        </ul>
+    </div>
+    <picture class="footer__image">
+        <source srcset="image/footer_480.png" media="(max-width: 480px)">
+        <source srcset="image/footer_768.png" media="(max-width: 768px)">
+        <img src="image/footer.png" alt="Картинка в футере">
+    </picture>
+</footer>
+</div>
+
+</body>
+
+</html>
