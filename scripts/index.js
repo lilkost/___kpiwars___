@@ -158,12 +158,12 @@ function animateHeros() {
     createFrameAnimation({
         parentSelector: ".hero-person-one",
         totalFrames: 16,
-        framePath: (frame) => `../image/anim_one/${frame}.png`,
+        framePath: (frame) => `image/anim_one/${frame}.png`,
     });
     createFrameAnimation({
         parentSelector: ".hero-person-two",
         totalFrames: 30,
-        framePath: (frame) => `../image/anim_two/${frame}.png`,
+        framePath: (frame) => `image/anim_two/${frame}.png`,
     });
 }
 
